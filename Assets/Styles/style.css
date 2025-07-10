@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+/* common css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn-color-blue {
+    background-color: #4E47FF;
+}
+
+.btn-primary {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* common css end */
+
+/* Header section */
+.header {
+    background-image: url(../Images/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    justify-content: space-between;
+}
+
+.header nav .logo {
+    font-size: 30px;
+    font-weight: 900;
+}
+.header nav .sign-up-btn {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.header nav .sign-up-btn:hover {
+    transition: .5s all ease;
+    background-color: #3836a3;
+}
+.header .hero {
+    text-align: center;
+    padding: 100px;
+}
+.header .hero h1 {
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+
+.header .hero .hero-button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header .hero .hero-button:hover {
+    transition: .5s all ease;
+    background-color: #3836a3;
+}
+/* Header section */
