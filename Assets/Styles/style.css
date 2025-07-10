@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F5F8FF;
+}
+
 .raleway-font {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -21,12 +25,15 @@
 
 .btn-color-blue {
     background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
 }
 
 .btn-primary {
     border: none;
     padding: 15px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
@@ -63,12 +70,13 @@
 }
 .header .hero {
     text-align: center;
-    padding: 100px;
+    padding: 110px;
 }
 .header .hero h1 {
     font-size: 54px;
     font-weight: 800;
     margin-bottom: 35px;
+    color: #252432;
 }
 
 .header .hero .hero-button {
@@ -81,4 +89,46 @@
     transition: .5s all ease;
     background-color: #3836a3;
 }
-/* Header section */
+/* End Header section */
+/* Action Section */
+.action {
+    padding: 110px 0;
+}
+
+.action .action-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action .action-text {
+    align-content: center;
+    width: 30%;
+}
+
+.action .action-text h1 {
+    color: #252432;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 14px 0;
+}
+
+.action .action-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+    padding-bottom: 14px;
+}
+.action .action-text button {
+    border: none;
+}
+.action .action-text .action-btn:hover {
+    transition: .5s all ease;
+    background-color: #3836a3;
+    
+}
+.action .action-img {
+    display: inline-block;
+    border: none;
+    border-radius: 35px;
+}
+
