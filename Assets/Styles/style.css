@@ -228,7 +228,8 @@ body {
 
 /* Focus CSS */
 .focus {
-    background-color: #F5F8FF;
+    background-color: #ffffff;
+    border-radius: 15px;
     padding: 50px 0;
     text-align: center;
 }
@@ -244,4 +245,17 @@ body {
     color: rgba(37, 36, 50, 0.5);
     padding-bottom: 20px;
 }
+.focus .f-img {
+    margin-top: 20px;
+    border-radius: 40px;
+}
 /* Focus CSS End */
+/* Contact CSS */
+.contact {
+    padding: 50px 0;
+    margin-bottom: 90px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* Contact CSS End */
