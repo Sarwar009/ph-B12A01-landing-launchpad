@@ -258,4 +258,47 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.contact .c-header {
+    font-size: 60px;
+    font-weight: 800;
+    color: #252432;
+    padding-right: 30px;
+    margin-right: 30px;
+    align-self: center;
+}
+.contact .c-form {
+    width: 50%;
+}
+.contact .c-form label{
+    display: block;
+      margin-top: 20px;
+      margin-bottom: 6px;
+      font-weight: 700;
+}
+.contact .c-form input,
+.contact .c-form textarea{
+    width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #ffffff;
+}
+.contact .c-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact .c-form input::placeholder,
+textarea::placeholder {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  color: #252432;
+}
+.contact .c-form button {
+    display: block;
+    width: 100%;
+}
+    
 /* Contact CSS End */
