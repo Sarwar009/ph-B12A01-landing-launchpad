@@ -297,6 +297,7 @@ textarea::placeholder {
   color: #252432;
 }
 .contact .c-form button {
+    margin-top: 20px;
     display: block;
     width: 100%;
 }    
@@ -324,6 +325,7 @@ textarea::placeholder {
     font-weight: 400;
     color: #8987A1;
     padding: 20px 0;
+    margin-bottom: 10px;
 }
 .footer .footer-content .footer-links ul {
     display: flex;
