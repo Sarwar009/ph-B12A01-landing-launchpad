@@ -28,6 +28,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #fff;
+    
 }
 
 .btn-primary {
@@ -83,10 +84,11 @@ body {
     font-size: 16px;
     font-weight: bold;
     color: #fff;
+    
 }
 
 .header .hero .hero-button:hover {
-    transition: .5s all ease;
+    transition: .7s all ease;
     background-color: #3836a3;
 }
 /* End Header section */
@@ -102,27 +104,27 @@ body {
 
 .action .action-text {
     align-content: center;
-    width: 30%;
+    width: 40%;
 }
 
 .action .action-text h1 {
     color: #252432;
-    font-size: 35px;
+    font-size: 37px;
     font-weight: 800;
-    padding: 14px 0;
+    padding: 15px 0;
 }
 
 .action .action-text p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: rgba(37, 36, 50, 0.5);
-    padding-bottom: 14px;
+    padding-bottom: 15px;
 }
 .action .action-text button {
     border: none;
 }
 .action .action-text .action-btn:hover {
-    transition: .5s all ease;
+    transition: .7s all ease;
     background-color: #3836a3;
     
 }
@@ -131,4 +133,37 @@ body {
     border: none;
     border-radius: 35px;
 }
+/* End Actions css */
+.users {
+    background-color: #e5e7ff;
+    border-radius: 20px;
+    padding: 50px 0;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    margin-top: 0;
+    text-align: center;
+    align-content: center;
+}
+.users .users-header {
+    font-size: 40px;
+    font-weight: 800;
+    color: #252432;
+    padding-bottom: 10px;
+}
+.users .usersData {
+    display: flex;
+    justify-content: space-around;
+} 
+.users .usersData p {
+    color: rgba(0, 0, 0, 0.5);
+}
+.users .usersData .userTitle {
+    font-size: 70px;
+    font-weight: 800;
+    color: #4E47FF;
+    padding: 20px 0;
+}
+/* End Users css */
+/* Start Testimonial css */
 
+/* End Testimonial css */
